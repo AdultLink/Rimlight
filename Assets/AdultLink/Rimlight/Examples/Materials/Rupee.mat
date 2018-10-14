@@ -86,7 +86,7 @@ Material:
     - _DstBlend: 0
     - _Enableemission: 1
     - _Enablerimlight: 1
-    - _Frequency: 2.07
+    - _Frequency: 20
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -98,7 +98,7 @@ Material:
     - _Pulse: 0
     - _Rimlightbias: 0
     - _Rimlightopacity: 0.237
-    - _Rimlightpower: 2.08
+    - _Rimlightpower: 1.5
     - _Rimlightscale: 1.5
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0

@@ -115,4 +115,4 @@ Material:
     - _Mainoffset: {r: 0, g: 0, b: 0, a: 0}
     - _Maintiling: {r: 1, g: 1, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: 0, b: 0, a: 0}
-    - _Rimlightcolor: {r: 0.4432049, g: 0.08823517, b: 0.5, a: 1}
+    - _Rimlightcolor: {r: 0.42839754, g: 0.11418682, b: 0.7058823, a: 1}

@@ -90,9 +90,9 @@ public class CameraController : MonoBehaviour {
 		}
 
 		private void setInfo() {
-			nameText.text = cameraPositions[positionIndex].name.ToString();
-			indexText.text = (positionIndex+1).ToString() + "/" + cameraPositions.Length.ToString();
-			descriptionText.text = cameraPositions[positionIndex].description.ToString();
+			//nameText.text = cameraPositions[positionIndex].name.ToString();
+			//indexText.text = (positionIndex+1).ToString() + "/" + cameraPositions.Length.ToString();
+			//descriptionText.text = cameraPositions[positionIndex].description.ToString();
 		}
 	}
 }

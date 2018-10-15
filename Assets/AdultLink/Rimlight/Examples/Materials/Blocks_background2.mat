@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Stones
+  m_Name: Blocks_background2
   m_Shader: {fileID: 4800000, guid: f05f4aa1fb7859842932d74a133e738f, type: 3}
   m_ShaderKeywords: _ENABLERIMLIGHT_ON
   m_LightmapFlags: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: 8492df7b7d4b24b40a6bb53865bc92eb, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Occlusion:
-        m_Texture: {fileID: 2800000, guid: dc89a3067276c044086591da9f1ac6f5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -97,9 +97,9 @@ Material:
     - _Parallax: 0.02
     - _Pulse: 0
     - _Rimlightbias: 0
-    - _Rimlightopacity: 0
-    - _Rimlightpower: 3.5
-    - _Rimlightscale: 1
+    - _Rimlightopacity: 1
+    - _Rimlightpower: 2.5
+    - _Rimlightscale: 2
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -108,11 +108,11 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Albedotintcolor: {r: 1, g: 1, b: 1, a: 1}
+    - _Albedotintcolor: {r: 0.6102941, g: 0.6102941, b: 0.6102941, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Emissiontintcolor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissiontintcolor: {r: 0.2794118, g: 0.2794118, b: 0.2794118, a: 1}
     - _Mainoffset: {r: 0, g: 0, b: 0, a: 0}
     - _Maintiling: {r: 1, g: 1, b: 0, a: 0}
     - _Noisespeed: {r: 0, g: 0, b: 0, a: 0}
-    - _Rimlightcolor: {r: 0, g: 0.8344827, b: 1, a: 1}
+    - _Rimlightcolor: {r: 0.6397059, g: 0.15992647, b: 0.15992647, a: 1}

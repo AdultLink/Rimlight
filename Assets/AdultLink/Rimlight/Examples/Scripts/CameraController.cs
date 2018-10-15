@@ -6,7 +6,6 @@ using UnityEngine.UI;
 namespace AdultLink {
 public class CameraController : MonoBehaviour {
 
-	public float movementSpeed = 1f;
 	public float rotationSpeed = 10f;
 	public float smoothTime = 0.3f;
 	public Text nameText;
@@ -14,7 +13,6 @@ public class CameraController : MonoBehaviour {
 	public Text descriptionText;
 	public CameraPositions[] cameraPositions;
 	public GameObject UIGO;
-	private bool lockCursor = true;
 	private int positionIndex = 0;
 	private Vector3 velocity = Vector3.zero;
 	private Vector3 targetPos;
@@ -24,8 +22,6 @@ public class CameraController : MonoBehaviour {
 	public Transform playerTarget;
 
 	void Start () {
-		Cursor.visible = false;
-		Cursor.lockState = CursorLockMode.Locked;
 		setPosition();
 		cam.transform.position = targetPos;
 		cam.transform.rotation = Quaternion.Euler(targetRot);
@@ -84,15 +80,14 @@ public class CameraController : MonoBehaviour {
 		}
 
 		private void setCursorVisibility(bool visible) {
-			lockCursor = !visible;
 			Cursor.visible = visible;
 			Cursor.lockState = visible ? CursorLockMode.None : CursorLockMode.Locked;
 		}
 
 		private void setInfo() {
-			//nameText.text = cameraPositions[positionIndex].name.ToString();
-			//indexText.text = (positionIndex+1).ToString() + "/" + cameraPositions.Length.ToString();
-			//descriptionText.text = cameraPositions[positionIndex].description.ToString();
+			nameText.text = cameraPositions[positionIndex].name.ToString();
+			indexText.text = (positionIndex+1).ToString() + "/" + cameraPositions.Length.ToString();
+			descriptionText.text = cameraPositions[positionIndex].description.ToString();
 		}
 	}
 }

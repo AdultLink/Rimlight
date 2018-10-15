@@ -39,4 +39,10 @@ public class UIController : MonoBehaviour {
 			mats[i].SetFloat("_Enablerimlight", onOff);
 		}
 	}
+
+	private void OnApplicationQuit() {
+		for (int i = 0; i < mats.Length; i++) {
+			mats[i].SetFloat("_Enablerimlight", 1f);
+		}
+	}
 }

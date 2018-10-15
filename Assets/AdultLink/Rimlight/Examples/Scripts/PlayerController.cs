@@ -45,5 +45,11 @@ public class PlayerController : MonoBehaviour {
     private bool isGrounded() {
         return Physics.Raycast(transform.position, -Vector3.up, colliderRadius + raycastDistance);
     }
+
+    private void OnTriggerExit(Collider other) {
+        if (other.gameObject.CompareTag("Despawner")) {
+            resetPlayerPos();
+        }
+    }
 }
 }

@@ -85,7 +85,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Enableemission: 1
-    - _Enablerimlight: 0
+    - _Enablerimlight: 1
     - _Frequency: 20
     - _GlossMapScale: 1
     - _Glossiness: 0.5

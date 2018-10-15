@@ -7,9 +7,12 @@ public class FollowTarget : MonoBehaviour {
 
 	// Use this for initialization
 	public Transform target;
-	public Vector3 offset;
+	private Vector3 offset;
 	
 	// Update is called once per frame
+	private void Start() {
+		offset = transform.position - target.position;
+	}
 	void Update () {
 		transform.position = target.position + offset;
 	}

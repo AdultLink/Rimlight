@@ -101,7 +101,7 @@ Material:
     - _Rimlightintensity: 1
     - _Rimlightopacity: 1
     - _Rimlightpower: 5
-    - _Rimlightscale: 2
+    - _Rimlightscale: 1.4
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1

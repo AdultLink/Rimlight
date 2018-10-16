@@ -18,10 +18,13 @@ public class CameraController : MonoBehaviour {
 	private Vector3 targetPos;
 	private Vector3 targetRot;
 	public Camera cam;
+	public int sidescrollerIndex;
 
 	public Transform playerTarget;
 
 	void Start () {
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
 		setPosition();
 		cam.transform.position = targetPos;
 		cam.transform.rotation = Quaternion.Euler(targetRot);
@@ -50,7 +53,7 @@ public class CameraController : MonoBehaviour {
 			setPosition();
 		}
 
-		if (positionIndex == 2) {
+		if (positionIndex == sidescrollerIndex) {
 			targetPos = playerTarget.position;
 			targetRot = playerTarget.rotation.eulerAngles;
 		}
@@ -62,26 +65,12 @@ public class CameraController : MonoBehaviour {
 		cam.transform.position = Vector3.SmoothDamp(cam.transform.position, targetPos, ref velocity, smoothTime*Time.unscaledDeltaTime);
 		cam.transform.rotation = Quaternion.RotateTowards(cam.transform.rotation, Quaternion.Euler(targetRot), Time.unscaledDeltaTime* rotationSpeed);
 
-		
-
-		if (Input.GetKey(KeyCode.Escape)) {
-			setCursorVisibility(true);
-		}
-		if (Input.GetKey(KeyCode.Mouse0)) {
-			setCursorVisibility(false);
-		}
-
 	}
 
 	private void setPosition() {
 			targetPos = cameraPositions[positionIndex].pos;
 			targetRot = cameraPositions[positionIndex].rot;
 			setInfo();
-		}
-
-		private void setCursorVisibility(bool visible) {
-			Cursor.visible = visible;
-			Cursor.lockState = visible ? CursorLockMode.None : CursorLockMode.Locked;
 		}
 
 		private void setInfo() {

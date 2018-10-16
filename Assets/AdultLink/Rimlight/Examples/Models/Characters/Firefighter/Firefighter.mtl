@@ -1,0 +1,36 @@
+# Exported from Fuse 2017.1.0
+
+newmtl PackedMaterial0
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d Firefighter_Packed0_Opacity.png
+map_Kd Firefighter_Packed0_Diffuse.png
+adobe_map_normal Firefighter_Packed0_Normal.png
+map_Ks Firefighter_Packed0_Specular.png
+adobe_map_shininess Firefighter_Packed0_Gloss.png
+
+newmtl PackedMaterial1
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d Firefighter_Packed1_Opacity.png
+map_Kd Firefighter_Packed1_Diffuse.png
+adobe_map_normal Firefighter_Packed1_Normal.png
+map_Ks Firefighter_Packed1_Specular.png
+adobe_map_shininess Firefighter_Packed1_Gloss.png
+

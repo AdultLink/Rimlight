@@ -10311,8 +10311,8 @@ MonoBehaviour:
       really useful sometimes.
 
 
-      Play around with ''Noise scale'' to achieve your desired granularity, and animate
-      it by specifying a ''Noise speed''.
+      Play around with ''Granularity'' to achieve desired scale, and animate it by
+      specifying a ''Speed''.
 
 
 
@@ -10323,9 +10323,9 @@ MonoBehaviour:
   - name: Character selection
     pos: {x: -15.05508, y: 13.6925, z: -25.90479}
     rot: {x: 8.802, y: -135.002, z: -0.017}
-    description: 'Includes a ''Pulse'' option which will effectively pulse the rim
-      light in and out, useful for highlighting certain objects or indicating status
-      effects.
+    description: 'Includes a ''Pulsate'' option which will effectively pulsate the
+      rim light in and out, useful for highlighting certain objects or indicating
+      status effects.
 
 
 
@@ -12573,7 +12573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6, y: -0.90999985}
+  m_AnchoredPosition: {x: -1.6000061, y: -0.90999985}
   m_SizeDelta: {x: 1567, y: 197.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1726225522

@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f2e2a5471d5e641914e57e45d7d070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pivotPoint: {fileID: 1472959535}
+  pivotPoint: {fileID: 1498823592}
   rotationSpeed: -35
   axis: {x: 0, y: 1, z: 0}
 --- !u!1 &410986707
@@ -1617,7 +1617,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1/5
+  m_Text: Description!
 --- !u!222 &558015075
 CanvasRenderer:
   m_ObjectHideFlags: 0

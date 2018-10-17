@@ -45,4 +45,5 @@ public class MonkeyController : MonoBehaviour {
 		rimScaleMat.SetFloat("_Rimlightscale", initialRimScale);
 		noiseScaleMat.SetFloat("_Noisescale", initialNoiseScale);
 	}
+
 }

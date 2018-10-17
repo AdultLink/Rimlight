@@ -95,6 +95,7 @@ Material:
     - _Noisescale: 8.96
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Pulsate: 0
     - _Pulse: 0
     - _Rimlightbias: 0
     - _Rimlightopacity: 1
